@@ -1,0 +1,21 @@
+{
+    "name": "styled-components-react-js-ts-snippets",
+    "displayName": "styled-components-react-js-ts-snippets",
+    "publisher": "HenryM",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "'javascript', 'typescript'",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

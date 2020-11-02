@@ -1,0 +1,40 @@
+{
+  "Create react component with styled-components": {
+    "prefix": ["scr"],
+    "body": [
+      "import React from \"react\";",
+      "import styled from \"styled-components\";",
+      "",
+      "const Component = styled.div``;",
+      "",
+      "export const NameOfComponent = () => {",
+      "\treturn (",
+      "\t\t<Component>",
+      "\t\t</Component>",
+      "\t);",
+      "}"
+    ],
+    "scope": "javascript",
+    "description": "A for loop."
+  },
+  "Create react component with styled-components and typescript": {
+    "prefix": ["tscr"],
+    "body": [
+      "import React from \"react\";",
+      "import styled from \"styled-components\";",
+      "",
+      "const Component = styled.div``;",
+      "",
+      "type NameOfComponentProps = { };",
+      "",
+      "export const NameOfComponent = ({}: NameOfComponentProps) => {",
+      "\treturn (",
+      "\t\t<Component>",
+      "\t\t</Component>",
+      "\t);",
+      "}"
+    ],
+    "scope": "typescript",
+    "description": "A for loop."
+  }
+}
